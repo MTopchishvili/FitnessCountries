@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0a0d4b;
+}
+
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: #1D1C25;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    padding-left: 15px;
+    color: #9C9C9C;
+    font-family: 'Poppins';
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+#lg{
+    width: 170px;
+    height: 40px;
+    margin: 0 40px;
+}
+
+.menu h3:hover{
+    color: #2A7BD8;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#title, #description{
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+#description{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.line{
+    background-color: rgba(21, 31, 48, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Ubuntu';
+    width: 80%;
+    padding: 50px 100px;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+#im1, #im2, #im3{
+    width: 400px;
+    height: 266px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.image1:hover, .image2:hover, .image3:hover, #im1:hover, #im2:hover, #im:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.container h1{
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+
+.content p{
+    font-size: 17px;
+}
+
+.button-box{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.learn-more{
+    width: 110px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(17, 28, 126);
+    border: rgb(17, 28, 126);
+    color: #dbdbdb;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.learn-more:hover{
+    background-color: #1e3083;
+    border: #1e3083;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.scroll-images{
+    width: 110px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(38, 43, 85);
+    border: rgb(38, 43, 85);
+    color: #dbdbdb;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.scroll-images:hover{
+    background-color: #37424b;
+    border: #37424b;
+    cursor: pointer;
+}
+
+.button-box-left{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.hidden{
+    display: none;
+}
+
+.myList{
+    color: #dbdbdb;
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#sup{
+    color: #b9bbb9;
+    font-family: 'Poppins';
+}
+
+.countries-list{
+    background-color: #3aa33a;
+    border: #3aa33a;
+    padding: 10px 50px;
+    border-radius: 25px;
+    color: #c4c4c4;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.countries-list:hover{
+    background-color: #2b832b;
+    color: #dfdfdf;
+    border: #2b832b;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}

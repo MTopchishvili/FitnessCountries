@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fitness</title>
+</head>
+<body>
+
+    <div class="menu">
+        <img src="logo.png" alt="" id="lg">
+        <h3>Main</h3>
+        <h3>Gyms</h3>
+        <h3>Courses</h3>
+        <h3>Supplements</h3>
+        <h3>About us</h3>
+    </div>
+
+    <h1 id="title">Join fitness world and improve yourself</h1>
+    <p id="description">We will help you achieve your dreams</p>
+    
+    <div class="container">
+        <div class="line">
+            <img src="gym.jpg" id="im1">
+            <div class="content">
+                <h1>GYMS</h1>
+                <p id="text" class="hidden">Get access to the best gyms with the newest equipment and friendly environment in your area and start grinding any time.</p>
+                <div class="button-box">
+                    <button class="scroll-images" onclick="changeImage()">Scroll Images</button>
+                    <button class="learn-more" onclick="hideFunction()" id="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="line">
+            <div class="content">
+                <h1>COURSES</h1>
+                <p id="text2" class="hidden">Use our courses which will cover every question you may have or even create one for you with help of our professional coaches.</p>
+                <div class="button-box-left">
+                    <button class="learn-more" onclick="hideFunction2()" id="btn2">Learn More</button>
+                    <button class="scroll-images" onclick="changeImage2()">Scroll Images</button>
+                </div>
+            </div>
+            <img src="courses.jpg" id="im2">
+        </div>
+
+        <div class="line">
+            <img src="supplements.jpg" id="im3">
+            <div class="content">
+                <h1>SUPPLEMENTS</h1>
+                <p id="text3" class="hidden">Shop for supplements you need to achieve your dreams using our online shop and we will make sure that you get them as soon as possible.</p>
+                <div class="button-box">
+                    <button class="scroll-images" onclick="changeImage3()">Scroll Images</button>
+                    <button class="learn-more" onclick="hideFunction3()" id="btn3">Learn More</button>
+                </div>
+            </div>
+        </div>
+        
+        <h2 id="sup">See countries where these supplements are available</h2>
+        <button class="countries-list" onclick="ShowCountries()">Show list</button>
+
+        <div class="myList" id="List1"></div>
+
+
+
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
